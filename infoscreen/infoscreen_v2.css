@@ -1,0 +1,103 @@
+/* 
+	ORIGINAL CSS BY CHRISTIAN LARSSON
+*/
+table.bs_table
+{
+	background-color:#000033;
+	width:100%;
+	font-family:"Arial Narrow",Arial;
+	font-weight:bold;
+	font-size:28px;
+	color:#FFF;
+}
+th.bs_clock
+{
+	font-family:"Arial Narrow",Arial;
+	font-size:32px;
+	color:#FFF;
+	text-align:right;
+	font-weight:bold;
+}
+th.bs_rubrik
+{
+	background-color:#BBB;
+	border-top:3px outset #999;
+	border-left:3px outset #999;
+	border-bottom:3px outset #999;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:26px;
+	color:#666;
+	text-align:left;
+	padding:5px;
+}
+th.bs_rubriktime
+{
+	background-color:#BBB;
+	border-top:3px outset #999;
+	border-right:3px outset #999;
+	border-bottom:3px outset #999;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:26px;
+	color:#555;
+	text-align:right;
+	padding:5px;
+}
+td.bs_rubrikerswe
+{
+	font-size:21px;
+	font-weight:normal;
+	color:#FFFFFF;
+	padding-top:5px;
+	padding-left:10px;
+}
+td.bs_rubrikereng
+{
+	font-size:21px;
+	font-weight:normal;
+	color:#FFC500;
+	border-bottom:2px solid #888;
+	padding-bottom:5px;
+	padding-left:10px;
+}
+td.bs_cell
+{
+	border:2px solid #000033;
+	white-space:nowrap;
+	padding-left:10px;
+}
+td.bs_cell_na
+{
+	color:#505060;
+	border:2px solid #000033;
+	white-space:nowrap;
+	padding-left:10px;
+}
+td.bs_gotoplane
+{
+	background-image:url("gotoplane.gif");
+	border:2px solid #000033;
+	font-size:28px;
+	font-weight:bold;
+	white-space:nowrap;
+	padding-left:10px;
+}
+td.bs_active
+{
+	background-color:#338;
+	border:2px solid #000033;
+	font-size:28px;
+	font-weight:bold;
+	white-space:nowrap;
+	padding-left:10px;
+}
+td.bs_warning
+{
+	background-color:#CC0000;
+	border:2px solid #000033;
+	font-size:28px;
+	font-weight:bold;
+	white-space:nowrap;
+	padding-left:10px;
+}
